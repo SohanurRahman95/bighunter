@@ -1,0 +1,26 @@
+/* tow card  */
+.two-card .grid{
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+.two-card .links ul li{
+    padding: 5px 0;
+    border-bottom: 1px solid #cec5c5;
+}
+.two-card .links{
+    background-color: #f1eeee;
+}
+
+.two-card .links h4{
+    margin-bottom: 10px;
+}
+.line{
+    border-radius: 3px;
+    padding: 4px 10px;
+}
+
+@media(max-width:500px){
+    .two-card .grid{
+        grid-template-columns: 1fr;
+    }
+}
